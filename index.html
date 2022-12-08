@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monkey Sushi-HomePage</title>
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/home.css">
+        <script src="script/script.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        
+        
+            <header class="navigation">
+                <nav>
+
+                <div class="Logo">
+                    <a class="fas fa-bars"></a>
+                    <img src="img/logo.jpg" alt="logo.jpg">
+                    <div class="dropdown-content">
+                        <a href="index.html">HOME</a>
+                        <a href="menu.html">MENU</a>
+                        <a href="about.html">ABOUT US</a>
+                        <a href="contact.html">CONTACT US</a>
+                    </div>
+                </div>
+                <div class="nav-items">
+                    <div class="nav-header">
+                        <a href="index.html">HOME</a>
+                        <a href="menu.html">MENU</a>
+                        <a href="about.html">ABOUT US</a>
+                        <a href="contact.html">CONTACT US</a>
+                    </div>
+                </div>
+                </nav>
+            </header>
+        <div id="home">
+            <h1>FOOD THE WAY IT OUGHT TO BE, PRICED THE WAY IT USED TO BE!</h1>
+            <div id="booking">
+                <h2>Book a table now</h2>
+                <button class="btn-2" type="submit" value="Book Now" id="registration">Book Now</button>
+            </div>
+        </div>
+        <main>
+            <div id='overlay'>
+                <a class='material-icons' id="close">close</a>
+                <h1>Registration Form</h1>
+                    <div id="form">
+                        <form>
+                            <label for="name">Name:</label> 
+                            <input type="text" name="name" id="name"> 
+                            <label for="myEmail">E-mail:</label> 
+                            <input type="text" name="myEmail" id="myEmail"> 
+                            <label for="numberPerson">Persons:</label> 
+                            <input type="number" name="numberPerson" id="numberPerson" >
+                            <label for="date">Date: </label>
+                            <input type="date" name="date" id="date">
+                            <label for="time">Time: </label>
+                            <input type="time" name="time" id="time">
+                            <label for="occasion">Occasion: </label>
+                            <input type="text" name="occasion" id="occasion">
+                            <label for="mobile">Mobile Number: </label>
+                            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="format: 555-555-5555">
+                            <div id="button">
+                                <button class="btn-2" onclick="show_alert()" type="reset" value="reset" id="reset">Reset</button>
+                                <button class="btn-2" onclick="show_alert()" type="submit" value="Submit" id="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+            </div>     
+           <section id="offers">
+                <h1 >Offers</h1>
+                <section id="offer">
+    <!--                <ul>-->
+                        <section id="offer1">
+                            <!--https://www.google.com/search?q=30%25+images&tbm=isch&chips=q:30+images,online_chips:discount:t-uyqU-9SnY%3D&client=firefox-b-d&hl=en&sa=X&ved=2ahUKEwik-PGV4ozwAhVKYisKHe3LCIYQ4lYoBHoECAEQIA&biw=1349&bih=626#imgrc=s0zH-izLwnqbBM-->
+                            <img src="img/30%25.jpg" alt="30%.jpg">
+                            <h4>30% Cashback by using mastercard</h4>
+                        </section>
+                        <section id="offer2">
+                            <!--https://www.google.com/search?q=50%25+images&tbm=isch&hl=en&chips=q:50%25+images,online_chips:sale:Nu5_Eytextw%3D&client=firefox-b-d&sa=X&ved=2ahUKEwiGjq_M4ozwAhVLi0sFHZ8iC2kQ4lYoBHoECAEQHg&biw=1349&bih=626#imgrc=RW34GFxPz2AvWM-->
+                            <img src="img/50%25.png" alt="50%.png" >
+                            <h4>50% off on order above 50CAD</h4>
+                        </section>
+                        <section id="offer3">
+                            <!--https://www.google.com/search?q=free+offer+images&tbm=isch&ved=2ahUKEwio0aKar-nvAhUPTCsKHfENCzAQ2-cCegQIABAA&oq=free+offer+images&gs_lcp=CgNpbWcQAzICCAAyBggAEAgQHjoGCAAQBxAeOgUIABCxAzoICAAQBxAFEB46CAgAEAgQBxAeUL3JA1j83wNglOEDaABwAHgAgAHZAYgBkwuSAQYwLjEwLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=WTJsYOjAKI-YrQHxm6yAAw&bih=626&biw=1366&client=firefox-b-d#imgrc=Kad9pTjhO8tWKM-->
+                            <img src="img/free.jpg" alt="free.jpg">
+                            <h4>free 1 Bento Box on order above 100CAD</h4>
+                        </section>
+<!--                </ul>--> 
+                </section>
+                <h6>
+                    <a href="https://www.skipthedishes.com/?search=monkey+sushi">More Details >></a>
+                </h6>
+            </section>
+            <div id="dishes">
+                <h1>Today's Special</h1>
+                <section id="dish1">
+                    <!--https://pixabay.com/photos/nigiri-sushi-salmon-japan-japanese-5425623/-->                   
+                    <img src="img/fly-d-loB9-eAYt2k-unsplash.jpg" alt="asianCucumber.jpg">
+                    <h3>
+                        A topping, usually fish, served on top of sushi rice
+                    </h3>
+                    <p>
+                        Notes: Not all nigiri is raw, though this dish is best for people who want to appreciate the flavor of the fish, shellfish, or other toppings.
+                    </p>
+                </section>
+                <section id="dish2">
+                    <!--https://pixabay.com/photos/sashimi-salmon-fish-ikura-food-1787626/-->
+                    <img src="img/dish2-2.jpg" alt="asianCucumber.jpg">
+                    <h3>
+                        Fish or shellfish served alone (no rice).
+                    </h3>
+                    <p>
+                        Notes: This is best for people who really love to taste the fish or shellfish since it comes with nothing else.
+                    </p>
+                </section>
+                <section id="dish3">
+                    <!--https://pixabay.com/photos/asian-cucumber-dish-fish-food-1239271/-->
+                    <img src="img/Nav%20img1.jpg" alt="asianCucumber.jpg">
+                    <h3>
+                        Rice and filling wrapped in seaweed.
+                    </h3>
+                    <p>
+                        Notes: Sushi rice along with smoked salmon, avocados, red peppers and carrots.This is what most people think of when they think of sushi rolls.
+                    </p>
+                </section>
+            </div>   
+            <section class ="grid-container">
+                    <section class="box1">
+                        <a class="fas fa-clipboard-list"> Order</a>
+                        <h5>HOT & TASTY</h5>
+                        <p>
+                            Order your choice of incredible AAA Steaks, Burgers, Sandwiches, BBQ and more!
+                        </p> 
+                        <div class="container-btn">
+                            <button class="button"><a href="menu.html">See menu</a></button>
+                        </div>
+                    </section>
+                    <section class="box2" >
+                        <a class="fas fa-map-marker-alt"> VISIT</a>
+                        <h5>STOP BY TODAY</h5>
+                        <p>
+                            Stop by for some incredible ambience, serving staff, ice cold draught and more!
+                        </p>
+                        <div class="container-btn">
+                            <button class="button"><a href="about.html">Find about us</a></button>
+                        </div>
+                    </section>
+                    <section class="box3" >
+                        <a class="fas fa-phone"> OWN</a>
+                        <h5>BE YOUR OWN BOSS</h5>
+                        <p>
+                            Your opportunity to be a part of Canada's fastest growing restaurant franchises today! 
+                        </p>
+                        <div class="container-btn">
+                            <button class="button"><a href="contact.html">Talk to us</a></button>
+                        </div>
+                </section>
+            </section>         
+        </main>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="footer-item">
+                    <ul class="nav-footer">
+                        <li><a> &copy; Monkey Sushi </a></li>
+                        <li>
+                            <a href="tel:888-555-5555"> <span> 493 Bloor St.W:</span> 416-966-1000</a>
+                        </li>
+                        <li> <a href="tel:888-555-5555"><span>461 Danforth Ave: </span> 416-406-0288</a></li>
+                        <li>
+                            <a href="tel:888-555-5555"> <span> 901 Yonge St:</span> 437-999-8883</a>
+                        </li>
+                        <li>
+                            <a href="tel:888-555-5555"> <span> 64 Edward Street:</span> 416-551-1355</a>
+                        </li>
+                        <li>
+                            <a href="tel:888-555-5555"> <span>182 Ossington Ave:</span> 437-999-8878</a>
+                        </li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-item">
+                        <table class="social-btn">
+
+                            <tr>
+                                <td>
+                                    <a class="fab fa-facebook"></a>
+                                </td>
+                                <td> <a href="">@Monkeysushi</a></td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="fab fa-instagram"></a>
+                                </td>
+                                <td> <a href="">@Monkeysushi</a></td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="fab fa-twitter"> </a>
+                                </td>
+                                <td> <a href="">@Monkeysushi</a></td>
+
+                            </tr>
+
+                        </table>
+
+
+
+                    </div>
+                    <div class="footer-item">
+                        <table class="list-footer">
+                            <tr>
+                                <td>
+                                    <a class="fas fa-home"></a>
+                                </td>
+                                <td> 
+                                    <a href="index.html">  Home</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="fas fa-clipboard-list"></a>
+                                </td>
+                                <td><a href="menu.html">  Menu</a></td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="fas fa-info-circle"></a>
+                                </td>
+                                <td><a href="about.html">  About Us</a></td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="fas fa-map-marker-alt"></a>
+                                </td>
+                                <td> <a href="contact.html">Contact Us</a></td>
+
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </footer>
+    </body>
+</html>
